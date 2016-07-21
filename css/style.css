@@ -1,0 +1,66 @@
+*{margin:0; padding:0;}
+body{background:#ebebeb;}
+div#global{
+	width:580px;
+	background:#fff;
+	border:1px solid #ccc;
+	padding:10px;
+	margin:20px auto;
+}
+div#global div.porcentagem{
+	float:left;
+	width:570px;
+	padding:5px;
+	background:#fff;
+	border:1px solid #069;
+}
+div#global div.porcentagem span.valor{
+	float:left;
+	display:block;
+	background:#069;
+}
+div#global div.porcentagem span.valor{
+	font:15px tahoma, arial, helvetica;
+	color:#FFF;
+	text-shadow:#000 0 1px 0;
+	margin:5px;
+}
+div.mensagens{
+	float:left;
+	width:570px;
+	padding:5px;
+	border:1px solid #036;
+	background:#8FB8FA;
+	font:16px "Trebuchet MS", tahoma, arial, helvetica;
+	color:#fff;
+	margin-top:5px;
+	margin-bottom:10px;
+}
+div#formulario{
+	float:left;
+	width:560px;
+	padding:10px;
+	background:eaeaea;
+	border: 1px solid #ccc;
+}
+div#formulario label span{
+	float:left;
+	font:16px "Trebuchet MS", tahoma, arial, helvetica;
+	color:#666;
+	margin-right:25px;
+	margin-top:5px;
+}
+div#formulario label input{margin-top:5px;}
+div#formulario #btnEnviar{
+	float:right;
+	padding:5px;
+	background:#069;
+	font:14px "Trebuchet MS", tahoma, arial, helvetica;
+	color:#fff;
+	text-shadow:#000 0 1px 0;
+	border:1px solid #036;
+}
+div#formulario #btnEnviar:hover{
+	cursor:pointer;
+	background:#036;
+}
